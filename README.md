@@ -6,6 +6,4 @@
 
 ## Downloading the app
 
-1. You will first need to clone the repository on to your computer
-2. Once you have cloned your repo, open the folder in any text code editor you would like.
-3. 
+Clone or download the repository onto your computer. Once you have done this, install the node packages but running `npm i` in your terminal.
