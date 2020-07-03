@@ -6,4 +6,6 @@
 
 ## Downloading the app
 
-1. You will first need to clone the application on to your computer
+1. You will first need to clone the repository on to your computer
+2. Once you have cloned your repo, open the folder in any text code editor you would like.
+3. 
