@@ -52,13 +52,12 @@ newSquares[i] = playerXIsNext ? "X" : "O"
         [0, 4, 8],
         [2, 4, 6],
     ]; // shows all of the winning combinations ("lines")
-    // Iterate over lines 
+    // Iterate over lines
     for (let line of lines) {
         const [a, b, c] = line;
         if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]){
             return squares[a]
         }
-        
     }
     return null
     }
@@ -70,7 +69,7 @@ newSquares[i] = playerXIsNext ? "X" : "O"
             return "Congrats player " + winner + " for winning!";
         } else if (isBoardFull(squares)) {
             return "The game ended in a draw!"
-        } 
+        }
         else {
             return "Next player is player" + (playerXIsNext ? "X" : "O")
         }
@@ -84,11 +83,10 @@ newSquares[i] = playerXIsNext ? "X" : "O"
 
     return (
         <>
-            <main className={`main--container 
-            ${(winner && getStatus() === 
-                "Congrats player " + winner + " for winning!" || 
-                !winner && getStatus() === "The game ended in a draw!") ?  
-                (getStatus() === "The game ended in a draw" ? "draw" 
+            <main className={`main--container
+            ${winner && getStatus() ===
+                "Congrats player " + winner + " for winning!" ?
+                (getStatus() === "The game ended in a draw" ? "draw"
                  : "winner") : (playerXIsNext ? "X" : "O") }`}>
 
 
