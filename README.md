@@ -1,8 +1,6 @@
 # Tic-tac-toe made with Reach framework
 
-- This is an app I made during the Road to Hire program
-
-- We used many hooks to build this app to use this project as a project based learning experience
+- This is an app I made during the Road to Hire program where I used React hooks to build a tic tac toc application.
 
 ## Cloning the website
 Download or clone this repoistory onto your computer. Once that is complete, you will need to install the node packages that were used to build this application. Yoiu can download the packages by running `npm i` in your terminal. 
