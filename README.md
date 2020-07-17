@@ -1,6 +1,6 @@
 # Tic-tac-toe made with Reach framework
 
-- This is an app I made during the Road to Hire program where I used React hooks to build a tic tac toc application.
+This is an app I made during the Road to Hire program where I used React hooks to build a tic tac toc application.
 
 ## Cloning the website
 Download or clone this repoistory onto your computer. Once that is complete, you will need to install the node packages that were used to build this application. Yoiu can download the packages by running `npm i` in your terminal. 
@@ -19,4 +19,4 @@ To stop the server from running, you hit `command + c` or `command + z` to stop 
 - [Leeangelo Riley](https://github.com/LeCoding-tech)
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LeCoding-tech/tic-tac-toe-react/blob/master/README.md) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LeCoding-tech/tic-tac-toe-react/blob/master/LICENSE) file for details.
